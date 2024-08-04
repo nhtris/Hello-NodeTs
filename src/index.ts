@@ -1,6 +1,6 @@
 import "module-alias/register";
 import express, { Request, Response } from "express";
-import { hello } from "./routes";
+import { hello } from "@/routes";
 
 const app = express();
 const port = 3002;
